@@ -1,6 +1,6 @@
 <!--conditional rendering have 4 directives v-if, v-else, v-else-if, v-show-->
 <template>
-  <h2 v-if="num === 0">The Number is Zero</h2> <!--conditionaly rendering element we use v-if directive-->
+  <h2 v-if="num === 0">The Number is Zero</h2> <!--conditionaly rendering element we use v-if directive (display elements conditionally)-->
   <h2 v-else-if="num < 0">The Number is Negative</h2> <!--conditionaly rendering element we use v-else-if directive-->
   <h2 v-else-if="num > 0">The Number is Positive</h2> <!--conditionaly rendering element we use v-else=if directive-->
   <h2 v-else>The Number is Not Zero</h2> <!--conditionaly rendering element we use v-else directive-->
